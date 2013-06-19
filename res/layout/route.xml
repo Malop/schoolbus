@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blue"
+    android:orientation="vertical" >
+    
+	<FrameLayout 
+	   	android:layout_width="fill_parent"
+	   	android:layout_height="wrap_content"
+	   	android:paddingLeft="2dip"
+	  	android:paddingRight="2dip"
+	   	android:gravity="center_vertical"
+	   	android:orientation="horizontal"
+	   	android:background="@drawable/widget_head_bg">
+  	
+	    <Button
+	   		android:id="@+id/route_detail_back"
+		   	android:layout_width="wrap_content" 
+		   	android:layout_height="wrap_content" 
+		   	android:layout_gravity="left"
+		   	android:clickable="true" 
+		   	android:background="@drawable/head_back_normal"/>
+	    
+	    <TextView 
+	        android:id="@+id/main_head_title"
+	        style="@style/main_head_title"
+			android:layout_gravity="center"
+			android:text="@string/route"/>
+    </FrameLayout>
+    
+    <ScrollView 
+        android:id="@+id/routeScroll"
+        android:fadingEdge="none"
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	    <LinearLayout
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content">
+		    <TextView
+		        style="@style/MMListCatalog"
+		        android:text="@string/route1"/>
+	        <TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/route1_to_pf_detail"/>
+			<TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/route1_to_zh_detail"/>
+	
+	   	   <TextView
+		        style="@style/MMListCatalog"
+		        android:text="@string/route2"/>
+	        <TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/route2_to_pf_detail"/>
+			<TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/route2_to_zh_detail"/>
+	   
+		    <TextView
+		        style="@style/MMListCatalog"
+		        android:text="@string/route3"/>
+	        <TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/route3_to_pf_detail"/>
+			<TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/route3_to_zh_detail"/>
+	    
+		    <TextView
+		        style="@style/MMListCatalog"
+		        android:text="@string/route4"/>
+	    
+	        <TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/route4_to_pf_detail"/>
+		
+		    <TextView
+		        style="@style/MMListCatalog"
+		        android:text="@string/route5"/>
+	        <TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/route5_to_pf_detail"/>
+			<TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/route5_to_zh_detail"/>
+	   
+		    <TextView
+		        style="@style/MMListCatalog"
+		        android:text="@string/route6"/>
+	        <TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/route6_to_pf_detail"/>
+			<TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/route6_to_zh_detail"/>
+			<TextView
+		        style="@style/MMListCatalog"
+		        android:text="@string/remark"/>
+			<TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/remark1_detail"/>
+			<TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/remark2_detail"/>
+			<TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/remark3_detail"/>
+			<TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/remark4_detail"/>
+			<TextView
+	            style="@style/RouteStyle"
+	            android:text="@string/remark5_detail"/>
+		</LinearLayout>
+    </ScrollView>
+ 
+
+</LinearLayout>

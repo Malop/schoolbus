@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">校车</string>
+    <string name="route">路线</string>
+	<string name="work_to_pf">往屏峰(工作)</string>
+	<string name="work_to_zh">往朝晖(工作)</string>
+	<string name="week_to_pf">往屏峰(周末)</string>
+	<string name="week_to_zh">往朝晖(周末)</string>
+	<string name="zh_to_pf">朝晖—屏峰：</string>
+	<string name="pf_to_zh">屏峰—朝晖：</string>
+	<string name="zh_to_hm">朝晖—翰墨香林：</string>
+	<string name="hm_to_zh">翰墨香林—朝晖：</string>
+	<string name="cx_to_pf">城西—屏峰：</string>
+	<string name="xdy_to_pf">东新园—屏峰：</string>
+	<string name="pf_to_xdy">屏峰—东新园：</string>
+	<string name="route1">一号线</string>
+	<string name="route1_to_pf_detail">朝晖—屏峰：邵科馆、省委党校、杭师院、物美超市、益乐路口车站、雅仕苑车站、高教新村、府苑新村车站、武警指挥学校、语林楼</string>
+	<string name="route1_to_zh_detail">屏峰—朝晖：语林楼、武警指挥学校、府苑新村车站、高教新村、雅仕苑车站、益乐路口车站、物美超市、杭师院、省委党校、南大门、邵科馆</string>
+	<string name="route2">二号线</string>
+	<string name="route2_to_pf_detail">朝晖—屏峰：邵科馆、市交擎支队车站、文三路口车站、上宁桥车站、古荡新村西车站、丰潭路口车站、古墩路金欣花园、府苑新村车站、武警指挥学校、语林楼</string>
+	<string name="route2_to_zh_detail">屏峰—朝晖：语林楼、武警指挥学校、府苑新村车站、古墩路金欣花园、丰潭路口车站、丰潭路文二西路口车站、文二西路东口车站、节能公司车站、团校车站、文二路口车站、朝晖九区车站、南大门、邵科馆
+</string>
+	<string name="route3">三号线</string>
+	<string name="route3_to_pf_detail">朝晖—屏峰：邵科馆、省委党校、杭师院、文二西路东口车站、文二西路丰潭路口车站、雅仕苑车站、高教新村、府苑新村车站、武警指挥学校、语林楼</string>
+	<string name="route3_to_zh_detail">屏峰—朝晖：语林楼、武警指挥学校、府苑新村车站、高教新村、文二西路丰潭路口车站、文二西路东口车站、团校车站、文二路口车站、朝晖九区车站、南大门、邵科馆</string>
+	<string name="route4">四号线</string>
+	<string name="route4_to_pf_detail">城西—屏峰：省委党校、杭师院、物美超市、嘉绿苑农贸市场、益乐路口车站、雅仕苑车站、高教新村、武警指挥学校、语林楼</string>
+	<string name="route5">五号线</string>
+	<string name="route5_to_pf_detail">东新园—屏峰：东新园南门车站、三塘小区车站、大关小区车站、德胜新村站、语林楼</string>
+	<string name="route5_to_zh_detail">屏峰—东新园：屏峰—东新园：语林楼、武警指挥学校、高教新村、雅仕苑车站、益乐路口车站、物美超市、杭师院、省委党校、德胜新村站、大关小区车站、三塘小区车站、东新路口</string>
+	<string name="route6">六号线</string>
+	<string name="route6_to_pf_detail">朝晖—翰墨香林：邵科馆、 语林楼、翰墨香林</string>
+	<string name="route6_to_zh_detail">翰墨香林—朝晖：翰墨香林、语林楼、邵科馆</string>
+	
+	<string name="remark">备注 </string>
+	<string name="remark1_detail">1.朝晖校区班车在邵科馆始发，南大门不停靠；回朝晖校区的班车先在南大门停靠，终点到邵科馆。</string>
+	<string name="remark2_detail">2.屏峰校区班车在语林楼始发。工作日18：30前班车从屏峰校区主大门出，往屏峰校区的班车由主大门进校，校内停靠白荡海路，终点到语林楼；工作日18：30后和节假日班车从乌溪江路进出，工作日不在家和西苑停靠，节假日班车在家和西苑停靠。</string>
+	<string name="remark3_detail">3.所有人员请随带校园卡乘坐交通班车。班车在确保教职工乘坐前提下，有空位时学生可以搭乘。</string>
+	<string name="remark4_detail">4.各部门同时需在20人以上的用车，必须提前联系另行安排派车，经费自理。</string>
+	<string name="remark5_detail">5.为解决二专同学在周末乘坐校车时遇到的较大人流量问题，后勤管理处同意于11月3日、4日的以下时段各增派一辆校车：屏峰-朝晖7：45、16：30；朝晖-屏峰12：20、15：30。</string>
+
+	<string name="bus_go_time">发车时间:</string>
+	<string name="bus_go_condition">发车情况:</string>
+	<string name="run_route">运行路线:</string>
+	<string name="app_menu_surelogout">确定退出程序吗?</string>
+    <string name="update">更新</string>
+    <string name="refresh">刷新</string>
+    <string name="about">关于</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="title">软件信息</string>
+    <string name="message">校车时刻表查询软件，精弘制作</string>
+</resources>

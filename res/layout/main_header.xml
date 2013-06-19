@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_detail_header"
+   	android:layout_width="fill_parent"
+   	android:layout_height="wrap_content"
+   	android:paddingLeft="2dip"
+  	android:paddingRight="2dip"
+   	android:gravity="center_vertical"
+   	android:orientation="horizontal"
+   	android:background="@drawable/widget_head_bg">
+  	
+    <Button 
+   		android:id="@+id/main_back"
+	   	android:layout_width="wrap_content" 
+	   	android:layout_height="wrap_content" 
+	   	android:layout_gravity="left|center"
+	   	android:clickable="true" 
+	   	android:background="@drawable/head_back_normal"/>
+    
+    <TextView 
+        android:id="@+id/main_head_title"
+        style="@style/main_head_title"
+		android:layout_gravity="center"
+		android:text="@string/app_name"/>
+    
+    <Button
+    	android:id="@+id/route_button"
+  		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right|center"
+		android:layout_marginRight="4dip"
+		android:text="@string/route"
+		android:background="@drawable/login_button"/>
+
+</FrameLayout>

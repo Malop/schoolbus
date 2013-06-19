@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg_blue">
+	
+    <FrameLayout 
+	   	android:layout_width="fill_parent"
+	   	android:layout_height="wrap_content"
+	   	android:paddingLeft="2dip"
+	  	android:paddingRight="2dip"
+	   	android:gravity="center_vertical"
+	   	android:orientation="horizontal"
+	   	android:background="@drawable/widget_head_bg">
+  	
+	    <Button 
+	   		android:id="@+id/bus_detail_back"
+		   	android:layout_width="wrap_content" 
+		   	android:layout_height="wrap_content" 
+		   	android:layout_gravity="left"
+		   	android:clickable="true" 
+		   	android:background="@drawable/head_back_normal"/>
+	    
+	    <TextView 
+	        android:id="@+id/main_head_title"
+	        style="@style/main_head_title"
+			android:layout_gravity="center"
+			android:text="@string/app_name"/>
+    </FrameLayout>
+    
+    <LinearLayout 
+       android:layout_width="fill_parent"
+	   	android:layout_height="wrap_content"
+	   	android:orientation="vertical"
+	   	android:padding="20dip">
+    
+		<TextView 
+		    android:id="@+id/bus_start"
+		    android:layout_width="fill_parent"
+		   	android:layout_height="wrap_content"
+		   	android:background="@drawable/table_above_nor"
+		    style="@style/bus_detail_textview"/>
+		<TextView 
+		    android:id="@+id/bus_end"
+		    android:layout_width="fill_parent"
+		   	android:layout_height="wrap_content"
+		   	android:background="@drawable/table_below_nor"
+		    style="@style/bus_detail_textview"/>
+		<TextView 
+		    android:layout_width="fill_parent"
+		   	android:layout_height="wrap_content"/>
+		<TextView 
+		    android:id="@+id/bus_number"
+		    android:layout_width="fill_parent"
+		   	android:layout_height="wrap_content"
+		   	android:background="@drawable/table_above_nor"
+		    style="@style/bus_detail_textview"/>
+		<TextView 
+		    android:id="@+id/bus_time"
+		    android:layout_width="fill_parent"
+		   	android:layout_height="wrap_content"
+		   	android:background="@drawable/table_mid_nor"
+		    style="@style/bus_detail_textview"/>
+		<TextView 
+		    android:id="@+id/bus_route"
+		    android:layout_width="fill_parent"
+		   	android:layout_height="wrap_content"
+		   	android:background="@drawable/table_mid_nor"
+		    style="@style/bus_detail_textview"/>
+		<TextView 
+		    android:id="@+id/bus_num"
+		    android:layout_width="fill_parent"
+		   	android:layout_height="wrap_content"
+		   	android:background="@drawable/table_below_nor"
+		    style="@style/bus_detail_textview"/>
+	</LinearLayout>
+</LinearLayout>
